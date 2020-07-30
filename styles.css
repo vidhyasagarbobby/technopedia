@@ -1,0 +1,160 @@
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
+#title{
+  background-color: 	#20b2aa;
+  padding: 0 1rem 3rem;
+}
+
+h1{
+  font-family: "Montserrat-Black", sans-serif;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  color: #8f8f8f;
+}
+
+nav{
+  margin-bottom: 6rem;
+}
+
+.navbar{
+  padding: 2rem 0 0;
+}
+.container-fluid{
+  padding: 3% 5%;
+}
+/* Navigation Bar */
+.navbar-brand{
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-link{
+  font-family: "Montserrat-Light"
+}
+.dropdown-item{
+  font-family: "Montserrat-Light"
+}
+
+/* Title and photo */
+.title-photo{
+  margin: 0;
+}
+#lap-img{
+  padding-top: 1rem;
+  padding-left: 4rem;
+}
+
+
+/* Download Button */
+.download{
+  margin: 15% 3% 0;
+}
+
+/* Image rotation */
+.laptop{
+  transform: rotate3d(30deg);
+}
+
+
+
+/* Features */
+
+#features{
+  background-color: #fff;
+  text-align: center;
+  padding: 3rem 5rem;
+  line-height: 1.5;
+}
+.icon{
+  margin-bottom: 1rem;
+  color: #20b2aa;
+}
+
+.icon:hover{
+  color: #1f818c;
+}
+
+.feat{
+  padding: 5%;
+}
+
+
+/* Testimonials Section */
+#testimonials{
+  text-align: center;
+  background-color: #20b2aa;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 3rem 10rem;
+}
+.student-img{
+  width: 5rem;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+/* Press Section */
+#press{
+  background-color: #20b2aa;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+
+/* Pricing */
+#pricing{
+  padding: 6.25rem;
+  text-align: center;
+}
+
+.course-img{
+  width: 20rem;
+}
+
+.course-col{
+  padding: 3% 2%;
+}
+
+
+/* Call to Action */
+#cta{
+  background-color: #20b2aa;
+  text-align: center;
+  padding: 5%;
+}
+.bottom-h3{
+  padding-bottom: 5rem;
+}
+
+/* Footer */
+#footer{
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+.footer-icon{
+  padding: 1rem;
+}
