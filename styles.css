@@ -32,27 +32,31 @@ nav{
 }
 
 .navbar{
-  padding: 2rem 0 0;
-}
-.container-fluid{
-  padding: 3% 5%;
+  padding: 3% 3% 0;
 }
 /* Navigation Bar */
 .navbar-brand{
   color: #fff;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 2.5rem;
+  font-family: 'Orbitron';
+  font-size: 30px;
   font-weight: bold;
+
+  background: -webkit-linear-gradient(#000, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .nav-link{
-  font-family: "Montserrat-Light"
+  font-family: "Montserrat-Light-Italic", cursive;
+  font-size: 16px;
+  color: #fff;
 }
 .dropdown-item{
-  font-family: "Montserrat-Light"
+  font-family: "Montserrat-Light-Italic", cursive;
 }
 
 /* Title and photo */
 .title-photo{
+  padding-top: 5rem;
   margin: 0;
 }
 #lap-img{
@@ -63,7 +67,7 @@ nav{
 
 /* Download Button */
 .download{
-  margin: 15% 3% 0;
+  margin: 5% 3% 0;
 }
 
 /* Image rotation */
@@ -103,7 +107,7 @@ nav{
 }
 
 .carousel-item{
-  padding: 3rem 10rem;
+  padding: 3rem 0;
 }
 .student-img{
   width: 5rem;
@@ -137,24 +141,36 @@ nav{
   padding: 3% 2%;
 }
 
+/* About */
+#about{
+  font-family: "Montserrat", sans-serif;
+  background-color: #20b2aa;
+  text-align: center;
+  padding: 7% 15%;
+  line-height: 1.5;
+  color: #fff;
+}
+.story{
+  font-family: "Montserrat-Light";
+  color: #dce6e5;
+  font-size: 1.5rem;
+}
 
 /* Call to Action */
 #cta{
-  background-color: #20b2aa;
   text-align: center;
   padding: 5%;
-}
-.bottom-h3{
-  padding-bottom: 5rem;
 }
 
 /* Footer */
 #footer{
+  background-color: #333;
   text-align: center;
   padding-top: 4rem;
   padding-bottom: 1rem;
 }
 
 .footer-icon{
+  color: #fff;
   padding: 1rem;
 }
