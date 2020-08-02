@@ -168,3 +168,12 @@ nav{
   color: #fff;
   padding: 1rem;
 }
+
+
+
+/* Responsive Website */
+@media only screen and (max-width: 1500px){
+  .navbar{
+    font-size: 5rem;
+  }
+}
